@@ -1,0 +1,17 @@
+function sortierteArray(Array[]){
+tenp=0
+for i=0 to Array.length-1 do
+	if Array[i]>Array[i+1] then
+		tenp=temp(A[i+1])
+			
+
+
+
+
+
+
+}
+
+
+
+

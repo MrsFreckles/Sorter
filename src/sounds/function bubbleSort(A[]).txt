@@ -1,0 +1,16 @@
+FUNCTION bubbleSort(A[])
+    temp ← 0
+    n ← A.length
+
+for i ← 0 to A[].length-1 do
+        for j ← 1 to A[].length-1 do
+            if A[j-1] > A[j] Then
+                temp ← A[j-1]
+                A[j-1] ← A[j]
+                A[j] ← temp
+            End if
+        End for
+End for
+
+    return A
+end function
